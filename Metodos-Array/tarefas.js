@@ -59,10 +59,17 @@ console.log("Com a tarefa do índice 3 substituída:");
 console.table(tarefas);
 
 
-//Criando uma nova lista com tarefas adicionais e juntando com a lista original
+// Criando uma nova lista com tarefas adicionais e juntando com a lista original
 let tarefas2 = ["Ir ao SENAI", "Estudar inglês", "fazer a janta"];
 
 console.log("Tarefas combinada: ", tarefas.concat(tarefas2));
+
+
+// Transformando as tarefas
+let tarefasTransformadas = tarefas.map(tarefa => "Fazer:" + tarefa);
+
+console.table(tarefasTransformadas)
+
 
 
 
