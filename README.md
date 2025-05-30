@@ -20,3 +20,6 @@ Usa o método join para transformar a lista em uma string
 
 ## Etapa 7: Extraindo uma parte da lista do índice 2 ao 4
 Usa o método slice para extrair uma parte da lista de tarefas
+
+## Etapa 8: Alterando a lista
+Usa o método splice para alterar a lista

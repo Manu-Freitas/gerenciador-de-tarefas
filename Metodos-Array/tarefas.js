@@ -49,4 +49,15 @@ console.log("Lista de tarefas como String: ", tarefas.join(", "));
 console.log("Parte da tarefa (índices 2 a 5):", tarefas.slice(2, 5)); // ['Fazer exercícios de matemática', 'Lavar a louça', 'Comprar mercado', 'Ir à academia']
 
 
+// Removendo a tarefa no índice 3 e substituindo por uma nova tarefa
+let tarefaRemovidas = tarefas.splice(3, 1);
+console.log(`\Com a tarefa do índice 3 removida:`)
+console.table(tarefas);
+
+let alteraTarefa = tarefas.splice(3, 0, "Ir a farmácia");
+console.log("Com a tarefa do índice 3 substituída:");
+console.table(tarefas);
+
+
+
 
