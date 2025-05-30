@@ -77,6 +77,13 @@ let tarefasFiltrada = tarefas.filter(tarefas => tarefas.length > 15);
 console.log(`Tarefas filtrada (tarefas com mais de 15 caracteres): ${tarefasFiltrada}`);
 
 
+//Ordenando em ordem alfabética 
+let tarefasOrdenada = tarefas.sort();
+
+console.log("tarefas ordenadas em ordem alfabética:", tarefasOrdenada);
+
+
+
 
 
 

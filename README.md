@@ -33,3 +33,8 @@ Usa o método map para transformar as tarefas
 ## Etapa 11: Filtrando as tarefas que têm mais de 15 caracteres
 Usa o método filter para filtrar as tarefas 
 
+## Etapa 12: Ordenando as Tarefas
+Usa o método sort para ordenar as tarefas em ordem alfabética
+
+
+
