@@ -9,5 +9,11 @@ tarefas.push("varrer a casa", "estender roupa");
 console.log("depois do push");
 console.table(tarefas);
 
+// Removendo a última tarefa
+let tarefaRemovida = tarefas.pop();
 
+console.log("Depois do pop:");
+console.table(tarefas);
+
+console.log("Tarefa removida:", tarefaRemovida);
 
