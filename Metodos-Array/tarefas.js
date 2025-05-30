@@ -82,6 +82,10 @@ let tarefasOrdenada = tarefas.sort();
 
 console.log("tarefas ordenadas em ordem alfabética:", tarefasOrdenada);
 
+//Invertendo as tarefas
+let tarefaInvertida = tarefas.reverse();
+
+console.log("Tarefa invertida:", tarefaInvertida);
 
 
 
