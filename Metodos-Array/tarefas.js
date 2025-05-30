@@ -1,4 +1,13 @@
 let tarefas = ['Estudar JavaScript', 'Fazer exercícios de matemática', 'Lavar a louça', 'Comprar mercado', 'Ir à academia', 'Ler um livro', 'Fazer revisão para o teste', 'Limpar o quarto', 'Estudar para concurso', 'Organizar o computador'];
 
-tarefas.push("varrer a casa", "estender roupa")
+console.log("tarefas");
+console.table(tarefas);
+
+// Adicionando uma nova tarefa
+tarefas.push("varrer a casa", "estender roupa");
+
+console.log("depois do push");
+console.table(tarefas);
+
+
 
