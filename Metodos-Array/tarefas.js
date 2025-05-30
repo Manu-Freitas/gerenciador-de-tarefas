@@ -33,3 +33,12 @@ console.table(tarefas);
 
 console.log("Tarefa removida:", tarefasRemovida);
 
+// Verificando se a tarefa "ir a academia" existe
+if (tarefas.includes("Ir à academia")) {
+    console.log(`A tarefa já existe na lista`);
+} else {
+    tarefas.push("Ir à acamdemia");
+    console.table(tarefas);
+}
+
+
