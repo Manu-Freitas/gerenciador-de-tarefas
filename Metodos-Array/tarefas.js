@@ -41,4 +41,7 @@ if (tarefas.includes("Ir à academia")) {
     console.table(tarefas);
 }
 
+// Transformando a lista em uma string
+console.log("Lista de tarefas como String: ", tarefas.join(", "));
+
 

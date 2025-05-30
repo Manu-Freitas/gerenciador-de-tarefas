@@ -15,3 +15,7 @@ Usa o método shift para remover a primeira tarefa
 ## Etapa 5: Verificando se uma tarefa existe 
 Usa o método includes para verificar se a tarefa existe 
 
+## Etapa 6: Transformando a lista em uma string 
+Usa o método join para transformar a lista em uma string
+
+
