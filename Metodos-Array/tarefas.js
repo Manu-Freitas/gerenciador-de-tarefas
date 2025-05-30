@@ -19,7 +19,17 @@ console.log("Tarefa removida:", tarefaRemovida);
 
 
 // Adicionando nova tarefa no início 
-tarefas.unshift("lavar o carro")
+tarefas.unshift("lavar o carro");
 
-console.log("Depois do unshift")
-console.table(tarefas)
+console.log("Depois do unshift");
+console.table(tarefas);
+
+
+// Removendo a primeira tarefa
+let tarefasRemovida = tarefas.shift();
+
+console.log("Depois do shift");
+console.table(tarefas);
+
+console.log("Tarefa removida:", tarefasRemovida);
+
