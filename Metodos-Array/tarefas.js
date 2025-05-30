@@ -71,6 +71,14 @@ let tarefasTransformadas = tarefas.map(tarefa => "Fazer:" + tarefa);
 console.table(tarefasTransformadas)
 
 
+// Filtrando as tarefas que têm mais de 15 caracteres
+let tarefasFiltrada = tarefas.filter(tarefas => tarefas.length > 15);
+
+console.log(`Tarefas filtrada (tarefas com mais de 15 caracteres): ${tarefasFiltrada}`);
+
+
+
+
 
 
 

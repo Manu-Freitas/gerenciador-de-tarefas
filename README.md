@@ -29,3 +29,7 @@ Usa o método concat para concatenar as tarefas
 
 ## Etapa 10: Transformando as tarefas 
 Usa o método map para transformar as tarefas 
+
+## Etapa 11: Filtrando as tarefas que têm mais de 15 caracteres
+Usa o método filter para filtrar as tarefas 
+
