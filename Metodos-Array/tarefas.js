@@ -45,3 +45,8 @@ if (tarefas.includes("Ir à academia")) {
 console.log("Lista de tarefas como String: ", tarefas.join(", "));
 
 
+// Extraindo uma parte da lista do 2 ao 4
+console.log("Parte da tarefa (índices 2 a 5):", tarefas.slice(2, 5)); // ['Fazer exercícios de matemática', 'Lavar a louça', 'Comprar mercado', 'Ir à academia']
+
+
+
